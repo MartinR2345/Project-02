@@ -18,3 +18,9 @@ h1 {
     margin-top: 25px;
     color: black;
 }
+
+/* This will target my <p> tag in the HTML file */
+p {
+    text-align: center;
+    font-size: 20px;
+}
