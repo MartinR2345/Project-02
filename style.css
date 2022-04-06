@@ -2,10 +2,7 @@
 #container {
     text-align: center;
     margin-top: 150px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 15px;
-    padding-right: 13px;
+    padding: 25px 13px 25px 15px;
     margin-left: 390px;
     margin-right: 310px;
     border: 1px solid black;
