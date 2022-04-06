@@ -9,8 +9,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Use a <div> element, give it an id name of "container".  This container will hold an <h1> tag that says "Color Switcher" and a <p> tag that says "Pick any color" and an HTML select dropdown list with at least 5 color options in it -->
+    <h1>Color Switcher</h1>
 
+    <p>Pick any color</p>
+
+    <!-- Create an HTML select dropdown list with at least 5 color options in it -->
+    <!-- Use the "onchange" attribute so that every time a user selects a color from the dropdown list, it calls my JS function and in that function, the code I wrote will change the background color of the BODY section in the HTML file -->
+    <!-- In this function changeColor holds the parameter "this" keyword which will target the select tag -->
+    <select name="colors" onchange="changeColor(this)>
+    <option value="blue">Blue</option>
+    <option value="yellow">Yellow</option>
+    <option value="red">Red</option>
+    <option value="pink">Pink</option>
+    <option value="green">Green</option>
+    </select>
 
     <!-- link JavaScript file -->
     <script src="verb.js"></script>
